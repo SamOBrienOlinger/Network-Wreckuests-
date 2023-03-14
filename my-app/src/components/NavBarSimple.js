@@ -23,7 +23,7 @@ class NavBarSimple extends Component {
     render() {
         return (
             <div className={css.NavBar}>
-                <h1>My Gallery</h1>
+                {/* <h1>My Gallery of Cockapoos</h1> */}
                 <div>
                     <span>{this.state.message}</span>
                     <button onClick={() => this.handleclick()}>{this.state.buttonText}</button>

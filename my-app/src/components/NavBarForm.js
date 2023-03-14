@@ -20,7 +20,7 @@ class NavBarForm extends Component {
     render() {
         return (
             <div className= {css.NavBar}>
-                <h1>My Gallery</h1>
+                <h1>My Gallery of Spoodles</h1>
 
                     {/* This is part of steps 1-8 */}
                     {/* {
